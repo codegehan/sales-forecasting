@@ -95,13 +95,13 @@ def read_and_predict_sales(csv_file_path):
         predictions_table = predictions_table.rename(columns={'predicted_sales': 'value'})
         
         # Display tables
-        print("\n=== Sales Analysis Report ===\n")
+        # print("\n=== Sales Analysis Report ===\n")
         
-        print("Historical Sales:")
-        print(tabulate(historical_table, headers='keys', tablefmt='pretty', showindex=False))
+        # print("Historical Sales:")
+        # print(tabulate(historical_table, headers='keys', tablefmt='pretty', showindex=False))
         
-        print("\nPredicted Sales:")
-        print(tabulate(predictions_table, headers='keys', tablefmt='pretty', showindex=False))
+        # print("\nPredicted Sales:")
+        # print(tabulate(predictions_table, headers='keys', tablefmt='pretty', showindex=False))
         
         return historical_data, predictions_df
         
