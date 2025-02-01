@@ -108,5 +108,3 @@ def read_and_predict_sales(csv_file_path):
     except Exception as e:
         print(f"Error: {str(e)}")
         return None, None
-
-predictions = read_and_predict_sales('data.csv')
