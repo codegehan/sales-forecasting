@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import MinMaxScaler
-import matplotlib.pyplot as plt
 from tabulate import tabulate
 
 def read_and_predict_sales(csv_file_path):
